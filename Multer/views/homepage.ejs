@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HR Requirements Interface</title>
+    <link rel="stylesheet" href="/home.css">
+</head>
+<body>
+    <h1>HR Requirements Interface</h1>
+    <form action="/upload" method="POST" enctype="multipart/form-data">
+        <label for="role">Role:</label>
+        <select id="role" name="role">
+            <option value="">Select Role</option>
+            <option value="frontend">Frontend Developer</option>
+            <option value="backend">Backend Developer</option>
+            <option value="ai">AI/ML</option>
+            <option value="dataScience">Data Scientist</option>
+            <option value="fullStack">Full Stack Developer</option>
+            <option value="mobileDev">Mobile Developer</option>
+            <option value="uiUx">UI/UX Designer</option>
+            <option value="productManager">Product Manager</option>
+            <option value="qualityAssurance">Quality Assurance Engineer</option>
+            <!-- Add more roles as needed -->
+        </select>
+
+        <label for="experience">Experience Level:</label>
+        <select id="experience" name="experience">
+            <option value="">Select Experience Level</option>
+            <option value="0">0 yrs of experience</option>
+            <option value="0-1">0-1 yrs of experience</option>
+            <option value="1-3">1-3 yrs of experience</option>
+            <option value="3-5">3-5 yrs of experience</option>
+            <option value="5-8">5-8 yrs of experience</option>
+            <option value="8-10">8-10 yrs of experience</option>
+            <option value="10+">10+ yrs of experience</option>
+        </select>
+
+        <label for="resume">Upload Resume:</label>
+        <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx">
+
+        <button type="submit">Submit</button>
+    </form>
+    <script src="hr1.js"></script>
+</body>
+</html>

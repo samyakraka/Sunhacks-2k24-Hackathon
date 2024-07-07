@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav {
+    background-color: white;
+    color: #333;
+    box-shadow: 0 4px 4px rgba(48, 47, 47, 0.5); /* Increased opacity */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Distribute space evenly between items */
+    align-items: center; /* Align items vertically in the center */
+    border: 0.2px solid #302f2f; /* Add a thin border */
+    height: 70px; /* Adjust the height as needed */
+}
+   
+   nav ul {
+    size: 20px;
+    font-size: larger;
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Align items vertically in the center */
+   }
+   
+   nav ul li {
+    margin-right: 80px;  /* Increase the space between items */
+   }
+   
+   nav ul li:first-child {
+    font-weight: bold; /* Make the first item (React Landing Page) bold */
+    margin-right: auto; /* Push the rest of the items to the right */
+   }
+   
+   nav ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+   }
+   
+   .Name{
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: larger;
+   }
+
+   #praman-portal {/* Adjust the path as necessary */
+    background-size: cover; /* Adjust as needed */
+    background-position: center; /* Adjust as needed */
+    background-clip: padding-box; /* New property to limit the background to the padding area */
+    padding: 50px;
+    border-top: 5px solid #000;
+    border-bottom: 5px solid #000; /* Apply border only to the top */
+    color: black; /* Change the font color to black */
+    text-align: center;
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center; /* Center children vertically */
+    align-items: center; /* Center children horizontally */
+    height: 500px; /* Adjust the height as needed */
+}
+
+   
+   #praman-portal h1 {
+    font-size: 82px; /* Set the font size as specified */
+    margin-bottom: 20px; /* Add some space below the heading */
+   }
+   
+   #praman-portal p {
+    font-size: 18px; /* Adjust the font size as needed */
+    line-height: 1.6; /* Improve readability */
+   }
+   
+   #praman-portal h1, #praman-portal p {
+    color: black; /* Ensure all text within #praman-portal is black */
+}
+
+.btn {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; /* Ensures buttons are in the same row */
+    font-size: 16px;
+    margin: 10px 2px; /* Adds margin at the top */
+    cursor: pointer;
+    border-radius: 4px; /* Adjust the border radius as needed */
+    width: 200px; /* Set a fixed width */
+    height: 50px;
+    margin-top: 70px; /* Set a fixed height */
+    margin-right: 40px;
+    border: 1px solid #000; /* Add a thin border */
+}
+
+.btn-container {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Distribute space evenly between items */
+}
+
+.about-us-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.about-us-text {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.about-us-image {
+    flex: 1;
+    width: 50%;
+    height: 50%;
+}
+
+.about-us-text h2 {
+    font-size: 2.5rem; /* Adjust based on the reference website */
+    margin-bottom: 1rem;
+}
+
+.about-us-text p {
+    font-size: 1.2rem; /* Adjust based on the reference website */
+    line-height: 1.6; /* Improve readability */
+    margin-bottom: 1rem;
+}
+
+.about-us-text h3 {
+    font-size: 2rem; /* Adjust based on the reference website */
+    margin-bottom: 0.5rem;
+}
+
+.about-us-text ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.about-us-text ul li {
+    font-size: 1.1rem; /* Adjust based on the reference website */
+    margin-bottom: 0.5rem;
+}
+
+.row h1{
+    margin-left: 650px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.row{
+    margin: 5px;
+    border-bottom: 5px solid #000; 
+}
